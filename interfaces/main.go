@@ -15,6 +15,7 @@ func main() {
 
 	printGreeting(eb)
 	printGreeting(sb)
+
 }
 
 func printGreeting(b bot) {
@@ -22,7 +23,8 @@ func printGreeting(b bot) {
 }
 
 func (englishBot) getGreeting() string {
-	return "Hi There!"
+	// VERY custom logic for generating an english greeting
+	return "HI There!"
 }
 
 func (spanishBot) getGreeting() string {
